@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: white;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: gray;
+    color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -69,15 +69,24 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  background: white;
+  border-radius: 25%;
+  border: 3px solid #f2f2f2;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
+.second-header {
+  text-align: center;
+  background: url('images/ancient-animals.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 .tag {
-  background-color: #efefef;
+  background-color: white
+  ;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -93,7 +102,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #f2f2f2;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -117,7 +126,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: rgb(6, 216, 253)
 }
 
 footer {
